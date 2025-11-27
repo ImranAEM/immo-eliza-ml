@@ -45,6 +45,12 @@ def predict_price(transformed_house, model):
 
 
 
+# ----------------------------
+# Main
+# ----------------------------
+
+
+
 
 model_trained = "notebooks/models/random_forest_model.pkl"
 
@@ -82,4 +88,4 @@ transformed_house = transform_data_house(df_house, preprocessor)
 
 prediction = predict_price(transformed_house, model)
 
-print(prediction)
+print(prediction[0])
