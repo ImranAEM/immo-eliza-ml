@@ -53,13 +53,13 @@ The main goal is to build a robust predictive model that provides reliable price
 
 1. Data Preprocessing
 
-    - Handling missing values (NaN)
+  - Handling missing values (NaN)
 
-    - Encoding categorical variables
+  - Encoding categorical variables
 
-    - Scaling numerical variables
+  - Scaling numerical variables
 
-    - Creating pipelines to automate preprocessing
+  - Creating pipelines to automate preprocessing
 
 2. Feature Engineering
 
