@@ -35,6 +35,7 @@ def save_model(trained_model, filename):
 # Upload the preprocessed data
 
 data = load_data("preprocessed_data.pkl")
+
 X_train, X_test, y_train, y_test = data
 
 
@@ -47,6 +48,6 @@ trained_model = model_train(random_for,X_train, y_train)
 
 # Save the trained model
 
-filename = "RandomForest_train_model.pkl"
-save_model(trained_model, filename)
+filename = "notebook/models/RandomForest_train_model.pkl"
 
+save_model(trained_model, filename)
